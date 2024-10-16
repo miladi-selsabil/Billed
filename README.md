@@ -1,63 +1,85 @@
+# Billed 📑💼
 
-## L'architecture du projet :
-Ce projet, dit frontend, est connecté à un service API backend que vous devez aussi lancer en local.
+![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)
+[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/miladi-selsabil)
 
-Le projet backend se trouve ici: https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-back
-<a href="#description-fr-">README en Français</a> - <a href="#en-description">English README</a>
 
-## Organiser son espace de travail :
-Pour une bonne organization, vous pouvez créer un dossier bill-app dans lequel vous allez cloner le projet backend et par la suite, le projet frontend:
+## Description FR :
 
-Clonez le projet backend dans le dossier bill-app :
-```
-$ git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Back.git
-```
+Ceci est un projet réalisé dans le cadre du programme de formation Développeur Front-end JavaScript React chez [OpenClassrooms](https://openclassrooms.com/fr/paths/877-developpeur-dapplication-javascript-react)
 
-```
-bill-app/
-   - Billed-app-FR-Back
-```
+> L'application est pleine de bugs. Corrigez le code et implémentez des tests unitaires et d'intégration pour que ce ne soit plus le cas.
+>
+> #### Compétences évaluées :
+>
+> -   Ecrire des tests unitaires avec JavaScript 🔬
+> -   Débugger une application web avec le Chrome Debugger 💻
+> -   Régider un plan de test end-to-end manuel 📝
+> -   Ecrire des tests d'intégration avec Javascript 🚀
 
-Clonez le projet frontend dans le dossier bill-app :
-```
-$ git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Front.git
-```
+### Situation (fictive) du projet :
 
-```
-bill-app/
-   - Billed-app-FR-Back
-   - Billed-app-FR-Front
-```
+Développeur front-end dans une entreprise qui produit des solutions SaaS destinées aux équipes de ressources humaines.
 
-## Comment lancer l'application en local ?
+Une équipe travaille actuellement sur une fonction pour la gestion des notes de frais. Un développeur ayant quitté l’équipe en charge du projet, j’ai été désigné en tant que remplaçant afin de pouvoir tenir les délais. Cette fonctionnalité doit être prête pour son déploiement imminent.
 
-### étape 1 - Lancer le backend :
+Mon rôle a été de debuggez les parcours “Employé” et “Administrateur” de l’application, d’écrire des tests unitaires et d’intégration à l’aide de “Jest” et de rédiger un [plan de test End-to-End](/ressources/plan_E2E_parcours_employe.pdf) pour le parcours “Employé”.
 
-Suivez les indications dans le README du projet backend.
+### Todo-list : ([Notion](https://www.notion.so/a7a612fc166747e78d95aa38106a55ec?v=2a8d3553379c4366b6f66490ab8f0b90))
 
-### étape 2 - Lancer le frontend :
+-   Débugger l'application
+-   Ecrire des tests unitaires et d'intégration pour les fichiers views/Bills.js, container/Bills et container/NewBill.js
+-   Ecrire un plan de [plan de test End-to-End](/ressources/plan_E2E_parcours_employe.pdf) pour le parcours "Employé"
 
-Allez au repo cloné :
-```
-$ cd Billed-app-FR-Front
-```
+## Installation :
 
-Installez les packages npm (décrits dans `package.json`) :
-```
-$ npm install
-```
+### Procédure d'installation :
 
-Installez live-server pour lancer un serveur local :
-```
-$ npm install -g live-server
-```
+Cloner le repository:
 
-Lancez l'application :
-```
-$ live-server
-```
+-   `git clone https://github.com/miladi-selsabil/Billed.git`
 
-Puis allez à l'adresse : `http://127.0.0.1:8080/`
+### Installation et lancement du back-end :
+
+1. Le projet backend se trouve ici: https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-back
+
+   Clonez le projet backend dans le dossier bill-app :
+   ```
+   $ git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Back.git
+   ```
+2. Installer toutes les dépendances pour le back-end:
+
+-   `npm install` ou `yarn`
+
+3. Lancer le back-end :
+
+-   `npm run run:dev` ou `yarn run run:dev`
+
+### Installation et lancement du front-end :
+
+
+1. Installer toutes les dépendances pour le front-end:
+
+-   `npm install` ou `yarn`
+
+2. Lancer le front-end:
+
+-   `live-serveur`
+
+Le front-end sera lancé à l'URL:
+`http://localhost:8080/`
+
+## Développé avec :
+
+-   [Visual Studio Code](https://code.visualstudio.com/) - Éditeur de texte
+-   [GitHub](https://github.com/) - Outil de gestion de versions
+-   [Jest](https://jestjs.io/fr/) - Framework de test JavaScript
+
+## Auteur :
+
+**Arthur Blanc** : [**GitHub**](https://github.com/miladi-selsabil) 
+
+---
 
 
 ## Comment lancer tous les tests en local avec Jest ?
