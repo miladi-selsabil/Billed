@@ -77,7 +77,7 @@ Le front-end sera lancé à l'URL:
 
 ## Auteur :
 
-**Arthur Blanc** : [**GitHub**](https://github.com/miladi-selsabil) 
+**Selsabil Miladi** : [**GitHub**](https://github.com/miladi-selsabil) 
 
 ---
 
